@@ -1,0 +1,30 @@
+.gradient-text-color {
+    background-image: linear-gradient(90deg, #a58560, #361d01);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.number-color {
+    color: #997245;
+}
+
+/* Navbar */
+
+.navbar {
+    transition: all 1s;
+}
+
+.navbar-scrolled {
+    background-color: rgb(29, 29, 29);
+    /* box-shadow: 20 23px 10px rgba(112, 112, 112, 0.15); */
+}
+
+.login-btn {
+    background: linear-gradient(to right, #c4a682, #997245);
+    border: none !important;
+}
+
+.login-btn:hover {
+    background: linear-gradient(150deg, #997245, #c4a682, #997245);
+    transition: 20s;
+}
